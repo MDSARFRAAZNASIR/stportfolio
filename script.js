@@ -73,3 +73,26 @@ elems.forEach(function (e) {
     fix.style.backgroundImage = `url(${image})`
   });
 });
+
+// ##########3gsap################3
+var lt =gsap.timeline();
+lt.from(".main-div2 .link", {
+  y: -40,
+  duration:.5,
+  // delay:1,
+  opacity:0,
+  stagger:0.5
+})
+lt.from(".upper, .lower",{
+  x:-600,
+  duration:0.5,
+  opacity:0,
+  stagger:0.5
+})
+lt.from(".middle",{
+  x:600,
+  duration:1,
+  opacity:0,
+  stagger:0.5
+
+})
