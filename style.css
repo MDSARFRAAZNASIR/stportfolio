@@ -774,6 +774,7 @@ body::-webkit-scrollbar-thumb {
   }
   .menu{
     color:blue;
+    {
   .body {
     display: flex;
     flex-direction: column-reverse;
